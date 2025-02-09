@@ -25,7 +25,7 @@ contract Voting {
         votingStart = block.timestamp;
 
         // Set a fixed duration of 24 hours (1440 minutes)
-        uint256 durationInMinutes = 1440; // 24 hours in minutes
+        uint256 durationInMinutes = 525600; // 24 hours in minutes
         votingEnd = block.timestamp + (durationInMinutes * 1 minutes);
     }
 
